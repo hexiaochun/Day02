@@ -69,6 +69,9 @@
     <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_14.png">
       <Filter>resource</Filter>
     </Image>
+    <Image Include="..\Resources\grossini_dance_atlas.png">
+      <Filter>resource</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Day02.rc">

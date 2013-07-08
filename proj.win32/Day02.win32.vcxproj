@@ -134,6 +134,7 @@
     <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_14.png" />
     <Image Include="..\Resources\CloseNormal.png" />
     <Image Include="..\Resources\CloseSelected.png" />
+    <Image Include="..\Resources\grossini_dance_atlas.png" />
     <Image Include="..\Resources\HelloWorld.png" />
     <Image Include="res\Day02.ico" />
   </ItemGroup>
