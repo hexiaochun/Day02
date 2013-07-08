@@ -94,7 +94,7 @@ bool HelloWorld::init()
 
 		//CCSize size    =CCDirector::sharedDirector()->getWinSize();
 
-		CCSprite *ansprite  =CCSprite::create("grossini_dance_01.png");
+		CCSprite *ansprite  =CCSprite::create("grossini-aliases.png");
 
 		addChild(ansprite);
 		ansprite->setPosition(ccp(size.width/2,size.height/2));
@@ -111,14 +111,24 @@ bool HelloWorld::init()
 		//	animation->addSpriteFrameWithFileName(fileName->getCString());
 		//}
 		
-		CCTextureCache *cache      =CCTextureCache::sharedTextureCache();
+		/*CCTextureCache *cache      =CCTextureCache::sharedTextureCache();
 		CCTexture2D* text=cache->addImage("grossini_dance_atlas.png");
 
 		for (int i=0;i<5;i++)
 		{
-			CCRect rect    =CCRect(85*i,0,85,121);
-			CCSpriteFrame *spriteFrame    =CCSpriteFrame::createWithTexture(text,rect);
-			animation->addSpriteFrame(spriteFrame);
+		CCRect rect    =CCRect(85*i,0,85,121);
+		CCSpriteFrame *spriteFrame    =CCSpriteFrame::createWithTexture(text,rect);
+		animation->addSpriteFrame(spriteFrame);
+		}
+		*/
+		CCSpriteFrameCache *frameCache     =CCSpriteFrameCache::sharedSpriteFrameCache();
+		frameCache->addSpriteFramesWithFile("grossini-aliases.plist");
+
+		for (int i=1;i<15;i++)
+		{
+			CCString *fileName     =CCString::createWithFormat("grossini_dance_%02d.png",i);
+			CCSpriteFrame *frame    =frameCache->spriteFrameByName(fileName->getCString());
+			animation->addSpriteFrame(frame);
 		}
 		
 
