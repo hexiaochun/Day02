@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{34f3da04-6a82-4d2e-9ca4-f91eb0c7d8cc}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{843ec68b-3e6c-4277-ab66-cfae3d969870}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{a13c5924-ea9c-4678-b0b1-b6bc04658c79}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Day02.ico">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_01.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_02.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_03.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_04.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_05.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_06.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_07.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_08.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_09.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_10.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_11.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_12.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_13.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\..\samples\TestCpp\Resources\Images\grossini_dance_14.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Day02.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
